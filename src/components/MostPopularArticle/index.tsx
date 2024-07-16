@@ -19,7 +19,7 @@ const MostPopularArticals = () => {
                 <ShowArticals articles={popularArticals} />
             </>
           ) : (
-            <div className="loading md:h-[400px]">Loading...</div>
+            <div className="flex justify-center items-center md:h-[400px]">Loading...</div>
           )}
         </PopularArticals>
     );
