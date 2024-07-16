@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Articals Dropdown Component 1`] = `
+<div>
+  <div
+    class="w-full flex justify-between items-center mx-auto max-w-7xl px-6 lg:px-8"
+  >
+    <div>
+      1
+       Popular Articles from last 
+      1
+       
+      day
+    </div>
+    <div
+      class="flex items-center md:w-[30%]"
+    >
+      <label
+        aria-label="days"
+        class=" mb-2 text-sm font-medium text-gray-900 dark:text-white"
+      >
+        Select Days
+      </label>
+      <select
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block ml-5 w-[80%] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        data-testid="days"
+        name="day"
+      >
+        <option
+          value="1"
+        >
+          1
+           selected
+        </option>
+        <option
+          data-testid="select-option1"
+          value="1"
+        >
+          Last 1 day
+        </option>
+        <option
+          data-testid="select-option7"
+          value="7"
+        >
+          Last 7 days
+        </option>
+        <option
+          data-testid="select-option30"
+          value="30"
+        >
+          Last 30 days
+        </option>
+      </select>
+    </div>
+  </div>
+</div>
+`;

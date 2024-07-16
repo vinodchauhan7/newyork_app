@@ -1,0 +1,1 @@
+export const most_popular_articals_api = 'mostpopular/v2/viewed';

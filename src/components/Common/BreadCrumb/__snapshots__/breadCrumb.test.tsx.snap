@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render BreadCrumb Component 1`] = `
+<div>
+  <div
+    class="flex py-5 items-center"
+  >
+    <div
+      class="flex-grow border-t-2 border-black"
+    />
+    <span
+      class="flex-shrink mx-4 text-1xl md:text-2xl text-blue-950"
+    >
+      Most Popular Articles
+    </span>
+    <div
+      class="flex-grow border-t-2 border-black"
+    />
+  </div>
+</div>
+`;
