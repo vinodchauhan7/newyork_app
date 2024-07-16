@@ -16,8 +16,10 @@ export const usePopularArticals = () => {
         const response = await onGetMostPopularArticalsApiCall(articalsSize);
         if (response.status === "OK") {
             setPopularArticals(response.results)
-            setLoading(false);
+        } else {
+            setPopularArticals([])
         }
+        setLoading(false);
     },[articalsSize]);
 
 
