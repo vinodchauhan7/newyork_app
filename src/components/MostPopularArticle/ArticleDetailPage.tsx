@@ -4,6 +4,9 @@ import { getMediaPicture } from '../../lib/utils';
 
 const ArticleDetailPage = () => {
     let { state } = useLocation();
+    if (!state || !state?.data) {
+        return <div className='flex justify-center my-24 items-center font-bold text-xl'><span>No Article Found</span></div>
+    }
     return (
         <div className='flex flex-col md:flex-row justify-center gap-2 mt-8' data-testid="articleCardDetail">
             <div className='w-full md:w-1/2 h-1/2 bg-gray-200'>
