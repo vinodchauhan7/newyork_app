@@ -1,4 +1,21 @@
 # newyork_app
+New York Article application is showing most popular articles based on last selected Days.
+
+Below are some screenshots
+
+Landing Page
+![alt landingPage](assets/NY_dashboard.png)
+
+Details Page
+![alt detailsPage](assets/NY_details.png)
+
+#### Technical Stack used:
+- HTML
+- Tailwind-CSS
+- Typescript
+- React
+- Cypress
+- React Testing library
 
 In the project directory, you can run:
 
