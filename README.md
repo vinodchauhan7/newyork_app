@@ -7,7 +7,7 @@ Landing Page
 ![alt landingPage](assets/NY_dashboard.png)
 
 Details Page
-![alt detailsPage](assets/NY_details.png)
+![alt detailsPage](assets/NY_Details.png)
 
 #### Technical Stack used:
 - HTML
